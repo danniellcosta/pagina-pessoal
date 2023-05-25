@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Uva verde.jpg">
+	<title>Página Login Danniel Páginas</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+		body{
+			background-color: bisque;
+		}
+		fieldset{
+			border: 2px solid black;
+		max-width: 300px;
+		text-align: center;
+		height: 360px;
+		}
+		input{
+			padding: 10px;
+		}
+		div{
+			padding-left: 600px;
+			padding-top: 200px;
+		}
+button{
+	padding: 5px;
+	width: 70px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.checkbox{
+	font-size: small;
+}
+	</style>
+</head>
+<body>
+	
+	<h1>Login Danniel Páginas</h1>
+	
+	<div>
+	<form action="Index.html" method="get">
+	<fieldset>
+		<legend>Login</legend>
+		<p><label for="i_nome">Nome:</label></p>
+		<input type="text" name="nome" id="i_nome" required placeholder="Digite Aqui">
+		<p><label for="i_sobrenome">Sobrenome:</label></p>
+		<input type="text" name="sobrenome" id="i_sobrenome" required placeholder="Digite Aqui">
+		<p><label for="i_date">Data Nascimento	</label></p>
+		<input type="date" name="data" id="i_date">
+		<p><label for="i_email">Email:</label></p>
+		<input type="email" name="email" id="i_email" required placeholder="Digite Aqui">
+		<p><label for="i_password">Senha:</label></p>
+		<input type="password" name="senha" id="i_password" required placeholder="Digite Aqui">
+		<p><button type="submit">Enviar</button> 
+			<label class="checkbox" for="i_lembras">Lembrar de Mim</label>
+			<input type="checkbox" name="lembrar" id="i_lembrar">
+		</p>
+		<p><h4>Esqueceu a <a href="#senha">Senha?</a></h4></p>
+	</fieldset>
+    </form>
+	</div>
+	</div>
+</body>
+</html>

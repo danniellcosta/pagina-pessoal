@@ -1,0 +1,169 @@
+<!--ALUNO: DANNIEL LOPES DA COSTA
+    TURMA: A PROF: FALVIO-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre|:Danniel Páginas</title>
+    <style>
+        .barranav {
+    background-color: black;
+    overflow: hidden;
+}
+.barranav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.barranav a:hover {
+  background-color: white;
+  color: black;
+}
+.barranav a.active {
+  background-color:limegreen;
+  color: white;
+}
+.barranav-dir {
+  float: right;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: cornflowerblue;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  color: white;
+}
+
+.coluna {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0;
+  margin: 8px;
+}
+h1{
+    padding: 100px;
+    text-align: center;
+    font-size: xx-large;
+}
+.assunto{
+    text-align: center;
+}
+.sobre {
+  padding: 100px;
+  text-align: center;
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .linha::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titulo {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: cornflowerblue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .coluna {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="barranav">
+        <a href="Index.html">Inìcio</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="falecomigo.html">Fale Comigo</a>
+        <div class="barranav-dir">
+          <a href="vasco.html">Vasco</a>
+          <a class="active" href="Sobre.html">Sobre</a>
+        </div>
+    <div class="Sobre">
+<h1>Sobre Nós</h1>
+<p class="assunto">Meu nome é Danniel Lopes da Costa, sou o criador dessa página.Eu curso Ciencias da Computação na Universidade Veiga de Almeida (Campus Tijuca)</p>   
+</div>
+
+<h2 style="text-align: center;">Nosso Time</h2>
+<div class="linha">
+    <div class="coluna">
+        <div class="card">
+            <img src="Cópia de EU.jpg" alt="EU" style="width: 100%;">
+            <div class="container">
+                <h2>Danniel Lopes</h2>
+                <p class="titulo">CEO & Fundador</p>
+                <p>Nascido em Angra dos Reis <br> no dia 04/06/2005</p>
+                <p>danniellopescosta@gmail.com</p>
+                <p><button class="button">Contato</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="coluna">
+        <div class="card">
+            <img src="Cópia de EU.jpg" alt="EU" style="width: 100%;">
+            <div class="container">
+                <h2>Danniel Lopes</h2>
+                <p class="titulo">Diretor de Arte</p>
+                <p>Nascido em Angra dos Reis <br> no dia 04/06/2005</p>
+                <p>danniellopescosta@gmail.com</p>
+                <p><button class="button">Contato</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="coluna">
+        <div class="card">
+            <img src="Cópia de EU.jpg" alt="EU" style="width: 100%;">
+            <div class="container">
+                <h2>Danniel Lopes</h2>
+                <p class="titulo">Designer</p>
+                <p>Nascido em Angra dos Reis <br> no dia 04/06/2005</p>
+                <p>danniellopescosta@gmail.com</p>
+                <p><button class="button">Contato</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
